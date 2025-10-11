@@ -1,0 +1,9 @@
+#!/bin/bash
+# Asks for files and a directory, then copies them.echo "Enter file names separated by a space:"
+echo "Eter the files directory"
+read files
+echo "Enter destination directory:"
+read dir
+mkdir -p "$dir" # Creates directory if it doesn't exist
+cp $files $dir
+echo "Files copied to $dir"
