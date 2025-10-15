@@ -76,3 +76,6 @@ int main(int argc, char **argv) {
     printf("\nSorted array: "); print_arr(arr, n);
     return 0;
 }
+{
+    
+}
