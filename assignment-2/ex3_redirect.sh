@@ -7,4 +7,4 @@ do
   result=$(expr $n \* $i)
   echo "$n x $i = $result"
   i=$(expr $i + 1)
-donesdkfnfsdlfnsd
+done
