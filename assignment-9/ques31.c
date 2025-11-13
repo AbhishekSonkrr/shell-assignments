@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
         perror("utime(target)");
         return 1;
     }
-
+    
     /* success message */
     printf("\nTimestamps of '%s' updated to match '%s'.\n", dst, src);
     return 0; /* success */
